@@ -1,10 +1,9 @@
 # stock_prediction
 
-Goal 
-to predict the following month's S&P index return 
+## Project/Goals 
+Predicting the following month's S&P index return based on current month's macro-economic information 
 
-Features used:
-
+## Features used:
  - Consumer_sentiment_index
     - Source : University of Michigan Consumer Surveydata.nasdaq.com/data/UMICH/SOC1 university of michigan consumer surveyindex of consumer sentiment
 
