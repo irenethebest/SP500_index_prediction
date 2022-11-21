@@ -1,7 +1,7 @@
 # stock_prediction
 
 ## Project/Goals 
-Predicting the following month's S&P index return based on current month's macro-economic information 
+Predicting following month's S&P index return based on current month's macro-economic information 
 
 ## Features used:
  - Consumer_sentiment_index
