@@ -24,3 +24,31 @@ Predicting following month's S&P index return based on current month's macro-eco
     - The 3 month treasury yield hovered near 0 from 2009-2015 as the Federal Reserve maintained its benchmark rates at 0 in the aftermath of the Great Recession.
     
 - Other indices such as Nikkei('Nk')/Russell2000('R')/Nasdaq('Nas')
+
+
+This repository contains a classification model to predict the following month's S&P index return based on current month's macro-economic information.
+
+## Dataset
+The dataset used for training and testing the model contains macro-economic data for various factors, such as interest rates, inflation, GDP growth, and other economic indicators, along with the S&P index return for each month. The dataset can be found in the data directory, and it is divided into training and testing sets.
+
+## Model
+The classification model used in this project is a Random Forest classifier, which is a type of ensemble learning method that builds multiple decision trees and combines their predictions to produce a final output. The implementation of the model can be found in the model.ipynb notebook.
+
+## Evaluation
+The performance of the model is evaluated using the accuracy score, which measures the proportion of correct predictions made by the model. The accuracy score is calculated using the testing set and can be found in the evaluation.ipynb notebook.
+
+## Usage
+To use the model to make predictions, simply run the model.ipynb notebook and input the macro-economic data for the current month. The output of the model will be the predicted classification for the following month's S&P index return.
+
+## Requirements
+The following libraries are required to run the notebooks in this repository:
+
+Pandas
+NumPy
+Scikit-learn
+These libraries can be installed using pip:
+
+`pip install pandas numpy scikit-learn` 
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
