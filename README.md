@@ -1,7 +1,9 @@
 # stock_prediction
 
 ## Project/Goals 
-Predicting following month's S&P index return based on current month's macro-economic information 
+Predicting following month's S&P index return based on current month's macro-economic information. 
+Date of the project : September 2022
+Data used for the prediction is up to August 2022
 
 ## Features used:
  - Consumer_sentiment_index
