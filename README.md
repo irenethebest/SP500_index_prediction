@@ -1,4 +1,4 @@
-# stock_prediction
+# S&P 500 index prediction
 
 ## Project/Goals 
 Predicting following month's S&P index return based on current month's macro-economic information. 
